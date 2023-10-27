@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="084699d95f7a4f8ebf1e02ffed34428a" Name="Diagram1">
+        <EntityTypeShape EntityType="colledgeDepartmentModel.disciplines" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="colledgeDepartmentModel.evaluations" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="colledgeDepartmentModel.groups" Width="1.5" PointX="3.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="colledgeDepartmentModel.history" Width="1.5" PointX="6" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="colledgeDepartmentModel.specialities" Width="1.5" PointX="1.5" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="colledgeDepartmentModel.students" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="colledgeDepartmentModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="colledgeDepartmentModel.users" Width="1.5" PointX="7.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="colledgeDepartmentModel.collegdeSexView" Width="1.5" PointX="8.75" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="colledgeDepartmentModel.FK__evaluatio__idDis__53E25DCE" ManuallyRouted="false" />
+        <AssociationConnector Association="colledgeDepartmentModel.FK__evaluatio__idStu__54D68207" ManuallyRouted="false" />
+        <AssociationConnector Association="colledgeDepartmentModel.FK__groups__idSpecia__4D35603F" ManuallyRouted="false" />
+        <AssociationConnector Association="colledgeDepartmentModel.FK__history__idGroup__5011CCEA" ManuallyRouted="false" />
+        <AssociationConnector Association="colledgeDepartmentModel.FK__history__idStude__5105F123" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
